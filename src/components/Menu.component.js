@@ -1,13 +1,3 @@
-/**
- * Implements a menu. Accepts the following properties:
- *
- * id (string): Identifier for the element
- * items: [ { label: string,            // The text to show on the menu
- *            href: string, }, ... ]    // Href to use for the entry
- */
-
-
-
 import React from 'react';
 import Scroll from 'react-scroll';
 

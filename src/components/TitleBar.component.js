@@ -1,9 +1,3 @@
-/**
- * Implements the title bar with the bride and groom names and the wedding date.
- *
- * id (string): Identifier for the element
- */
-
 import React from 'react';
 
 class TitleBar extends React.Component {
@@ -12,7 +6,7 @@ class TitleBar extends React.Component {
         return (
             <header id={this.props.id} className="titlebar">
                 <span className="name">Paloma &amp; Thanh</span>
-                <div className="wedding-date">24<sup>st</sup> October, 2020</div>
+                <div className="wedding-date">October, 24<sup>th</sup> 2020</div>
             </header>
         );
     }
